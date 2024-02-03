@@ -6,3 +6,20 @@
   height: 100vh;
 }
 
+.yesButton {
+  color: white;
+  background-color: #51f542;
+  border: none;
+}
+
+.noButton {
+  margin-left: 5px;
+  color: white;
+  background-color: red;
+  border: none;
+  font-size: 30px;
+}
+
+.buttonBox {
+  margin-top: 10px
+}

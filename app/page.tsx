@@ -14,7 +14,7 @@ const pharses = [
 export default function Home() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 20 + 16;
+  const yesButtonSize = noCount * 20 + 30;
 
   function handleNoClick() {
     setNoCount(noCount + 1);
@@ -43,7 +43,7 @@ export default function Home() {
             />
             
             <div>Will you be my valentine?</div>
-            <div>
+            <div className="buttonBox">
               <button
                 className="yesButton"
                 style={{ fontSize: yesButtonSize }}
