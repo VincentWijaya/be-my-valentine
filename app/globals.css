@@ -23,3 +23,13 @@
 .buttonBox {
   margin-top: 10px
 }
+
+.yesText {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.questionText {
+  font-size: 30px;
+  font-weight: 300;
+}

@@ -33,7 +33,7 @@ export default function Home() {
               alt="bears kissing"
               src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"
             />
-            <div className="text">Yay!!!</div>
+            <div className="yesText">Yay!!!</div>
           </>
         ) : (
           <>
@@ -42,7 +42,7 @@ export default function Home() {
               src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
             />
             
-            <div>Will you be my valentine?</div>
+            <div className="questionText">Will you be my valentine?</div>
             <div className="buttonBox">
               <button
                 className="yesButton"
