@@ -25,7 +25,7 @@ const pharses = [
 export default function Home() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 20 + 30;
+  const yesButtonSize = noCount * 20 + 25;
 
   function handleNoClick() {
     setNoCount(noCount + 1);
